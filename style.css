@@ -1,19 +1,15 @@
 * {
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
     justify-content: space-around;
-  
-    
-}
+  }
 
 
 ul {
   list-style: none;
 }
-
 
 .main-name {
     color: red;
@@ -24,25 +20,22 @@ ul {
     font-size: 400%;
 
 }
+
 .search-box {
     display: flex;
-    
     padding: 0px 0px 30px 500px;
     border-radius: 30px;
     height: 90px;
     width: 100%;
     border-width: 180px;
-   
     text-emphasis-color:rgb(125, 125, 165)  ;
     border-radius: 20px;
-    
     justify-content: center;
     align-items: left;
     margin-left: 80px;
 }
    
 .search-bar {
-  
     width: 100%;
     max-width: 700px;
     background: rgba(255, 255, 255, 0.2);
@@ -82,7 +75,6 @@ ul {
   position: fixed;
   top: 0;
   left: 100px;
- 
   z-index: 1;
 }
 
@@ -135,16 +127,18 @@ ul {
   height: 2px;
   background: inherit;
 }
+
+
 /*moves line down */
 .menu-wrap .hamburger > div:after{
   top: 10px;
 }
 
-
 /*toggler animate*/
 .menu-wrap .toggler:checked  + .hamburger > div {
   transform: rotate(135deg);
 }
+
 
 /*turns into x */
 .menu-wrap .toggler:checked  + .hamburger > div:before  {
@@ -162,7 +156,6 @@ ul {
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
-
 
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
@@ -186,7 +179,6 @@ ul {
     height: 100%;
     visibility: hidden;
     overflow: hidden;
-    
     align-items: right;
     justify-content: center;
   }
@@ -211,8 +203,6 @@ ul {
    max-height: 100vh;
    opacity: 0;
    transition: opacity 0,2s ease-out;
-   
-
 }
 
 .menu-wrap .menu > div > div > ul > li {
@@ -222,7 +212,6 @@ ul {
   padding: 20 px;
   display: flex;
   flex-direction: row;
-
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -240,7 +229,6 @@ ul {
   height: 500px;
   padding: 3px;
   border-radius: 4px;
-
 }
 .img2 {
   height: 500px;
@@ -252,25 +240,21 @@ ul {
   height: 500px;
   padding: 3px;
   border-radius: 4px;
-  
 }
 .img4 {
   height: 500px;
   padding: 3px;
   border-radius: 4px;
- 
 }
 .img5 {
   height: 500px;
   padding: 3px;
   border-radius: 4px;
- 
 }
 .img6 {
   height: 500px;
   padding: 3px;
   border-radius: 4px;
- 
 }
 
 
@@ -283,7 +267,6 @@ ul {
    padding-left: 250px;
    padding-right: 500px;
    margin: 35px;
-   
  }
 
 
